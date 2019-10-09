@@ -2,10 +2,10 @@
 require 'pry'
 def prime?(num)
   
-  if num <= 0 
+  if num <= 1  
     puts "#{num} les than 0"
     return FALSE
-  elsif (num == 1 || num == 2)
+  elsif (num == 2)
     puts "#{num} l or 2"
     return TRUE
   end #if
